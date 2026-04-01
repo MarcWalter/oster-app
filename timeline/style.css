@@ -57,6 +57,19 @@ h1 {
     border-radius: 8px;
     box-shadow: 0 2px 8px rgba(0,0,0,0.1);
     transition: all 0.3s;
+    cursor: pointer;
+}
+
+.event:hover {
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.event.collapsed {
+    opacity: 0.6;
+}
+
+.event.expanded {
+    border: 2px solid #D4AF37;
 }
 
 .event::before {
@@ -71,16 +84,12 @@ h1 {
     border: 3px solid #FFF8E7;
 }
 
-.event.past {
-    opacity: 0.5;
-}
-
 .event.past::before {
     background: #ccc;
 }
 
 .event.current {
-    border: 2px solid #D4AF37;
+    border: 3px solid #D4AF37;
     box-shadow: 0 4px 16px rgba(212,175,55,0.3);
 }
 

@@ -28,89 +28,31 @@
 
         <section class="timeline-preview">
             <h2>Die Ereignisse</h2>
-            <div class="events">
-                <div class="event">
-                    <span class="time">🌿 Mo, 10:00</span>
-                    <span class="title">Einzug in Jerusalem</span>
-                </div>
-                <div class="event">
-                    <span class="time">😢 Mo, 16:00</span>
-                    <span class="title">Jesus weint über Jerusalem</span>
-                </div>
-                <div class="event">
-                    <span class="time">⛪ Di, 12:00</span>
-                    <span class="title">Tempelreinigung</span>
-                </div>
-                <div class="event">
-                    <span class="time">💧 Mi, 19:00</span>
-                    <span class="title">Salbung in Betanien</span>
-                </div>
-                <div class="event">
-                    <span class="time">💰 Do, 14:00</span>
-                    <span class="title">Verrat des Judas</span>
-                </div>
-                <div class="event">
-                    <span class="time">🍷 Do, 18:00</span>
-                    <span class="title">Das letzte Abendmahl</span>
-                </div>
-                <div class="event">
-                    <span class="time">🌙 Do, 21:00</span>
-                    <span class="title">Gebet in Gethsemane</span>
-                </div>
-                <div class="event">
-                    <span class="time">⚔️ Do, 23:00</span>
-                    <span class="title">Festnahme Jesu</span>
-                </div>
-                <div class="event">
-                    <span class="time">⚖️ Fr, 01:00</span>
-                    <span class="title">Verhör vor dem Hohen Rat</span>
-                </div>
-                <div class="event">
-                    <span class="time">🐓 Fr, 03:00</span>
-                    <span class="title">Verleugnung des Petrus</span>
-                </div>
-                <div class="event">
-                    <span class="time">👑 Fr, 06:00</span>
-                    <span class="title">Verhör vor Pilatus</span>
-                </div>
-                <div class="event">
-                    <span class="time">🩸 Fr, 07:00</span>
-                    <span class="title">Geißelung und Verspottung</span>
-                </div>
-                <div class="event">
-                    <span class="time">✝️ Fr, 09:00</span>
-                    <span class="title">Kreuzigung</span>
-                </div>
-                <div class="event">
-                    <span class="time">🌑 Fr, 12:00</span>
-                    <span class="title">Finsternis über dem Land</span>
-                </div>
-                <div class="event">
-                    <span class="time">💔 Fr, 15:00</span>
-                    <span class="title">Tod am Kreuz</span>
-                </div>
-                <div class="event">
-                    <span class="time">🪦 Fr, 18:00</span>
-                    <span class="title">Grablegung</span>
-                </div>
-                <div class="event">
-                    <span class="time">🛡️ Sa, 10:00</span>
-                    <span class="title">Bewachung des Grabes</span>
-                </div>
-                <div class="event">
-                    <span class="time">⚡ So, 06:00</span>
-                    <span class="title">Erdbeben am Grab</span>
-                </div>
-                <div class="event">
-                    <span class="time">🌅 So, 06:15</span>
-                    <span class="title">Das leere Grab</span>
-                </div>
-                <div class="event">
-                    <span class="time">✨ So, 06:30</span>
-                    <span class="title">Jesus erscheint den Frauen</span>
-                </div>
+            <div class="events" id="events-container">
             </div>
         </section>
+
+        <script>
+            fetch('content/ereignisse.json')
+                .then(res => res.json())
+                .then(events => {
+                    const container = document.getElementById('events-container');
+                    events.forEach(e => {
+                        const days = ['So', 'Mo', 'Di', 'Mi', 'Do', 'Fr', 'Sa'];
+                        const date = new Date(e.zeitpunkt);
+                        const day = days[date.getDay()];
+                        const time = e.uhrzeit;
+
+                        const div = document.createElement('div');
+                        div.className = 'event';
+                        div.innerHTML = `
+                            <span class="time">${e.emoji} ${day}, ${time}</span>
+                            <span class="title">${e.titel}</span>
+                        `;
+                        container.appendChild(div);
+                    });
+                });
+        </script>
 
         <section class="info">
             <h2>Wie funktioniert es?</h2>
