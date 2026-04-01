@@ -1,0 +1,134 @@
+[
+  {
+    "id": 1,
+    "datum": "2026-03-30",
+    "uhrzeit": "10:00",
+    "titel": "Einzug in Jerusalem",
+    "text_kurz": "Jesus reitet auf einem Esel in Jerusalem ein. Die Menschen jubeln ihm zu und legen Palmzweige auf den Weg.",
+    "text_lang": "Vor 2000 Jahren ritt Jesus auf einem jungen Esel in Jerusalem ein. Die Menschen empfingen ihn mit Jubel, legten ihre Kleider und Palmzweige auf den Weg und riefen: 'Hosanna dem Sohn Davids!' Sie erkannten in ihm den verheißenen König. Dieser triumphale Einzug markiert den Beginn der letzten Woche vor der Kreuzigung.",
+    "bibelstelle": "Matthäus 21,1-11",
+    "emoji": "🌿",
+    "tags": ["Palmsonntag", "Einzug"]
+  },
+  {
+    "id": 2,
+    "datum": "2026-03-31",
+    "uhrzeit": "12:00",
+    "titel": "Tempelreinigung",
+    "text_kurz": "Jesus vertreibt die Händler aus dem Tempel und wirft ihre Tische um.",
+    "text_lang": "Am Tag nach seinem Einzug betrat Jesus den Tempel in Jerusalem. Was er dort sah, erfüllte ihn mit Zorn: Händler verkauften Opfertiere zu überhöhten Preisen, Geldwechsler betrieben ihre Geschäfte. Jesus warf ihre Tische um und vertrieb sie mit den Worten: 'Mein Haus soll ein Bethaus sein, ihr aber habt eine Räuberhöhle daraus gemacht.' Diese mutige Aktion brachte die religiösen Führer gegen ihn auf.",
+    "bibelstelle": "Matthäus 21,12-17",
+    "emoji": "⛪",
+    "tags": ["Tempel", "Reinigung"]
+  },
+  {
+    "id": 3,
+    "datum": "2026-04-01",
+    "uhrzeit": "19:00",
+    "titel": "Salbung in Betanien",
+    "text_kurz": "Eine Frau salbt Jesus mit kostbarem Öl. Er deutet dies als Vorbereitung für sein Begräbnis.",
+    "text_lang": "In Betanien, im Haus Simons des Aussätzigen, geschah etwas Außergewöhnliches: Eine Frau trat zu Jesus und goss kostbares Nardenöl über seinen Kopf. Einige Jünger empörten sich über diese Verschwendung, doch Jesus verteidigte sie: 'Sie hat ein gutes Werk an mir getan. Sie hat meinen Leib im Voraus für mein Begräbnis gesalbt.' Jesus wusste, was bevorstand.",
+    "bibelstelle": "Matthäus 26,6-13",
+    "emoji": "💧",
+    "tags": ["Salbung", "Betanien"]
+  },
+  {
+    "id": 4,
+    "datum": "2026-04-02",
+    "uhrzeit": "14:00",
+    "titel": "Verrat des Judas",
+    "text_kurz": "Judas Iskariot geht zu den Hohenpriestern und bietet an, Jesus für 30 Silberstücke zu verraten.",
+    "text_lang": "Judas Iskariot, einer der zwölf Jünger, fasste einen folgenschweren Entschluss. Er ging zu den Hohenpriestern und fragte: 'Was wollt ihr mir geben, wenn ich euch Jesus ausliefere?' Sie einigten sich auf 30 Silberstücke. Von diesem Moment an suchte Judas nach einer günstigen Gelegenheit, Jesus zu verraten. Der Verrat kam aus den eigenen Reihen.",
+    "bibelstelle": "Matthäus 26,14-16",
+    "emoji": "💰",
+    "tags": ["Judas", "Verrat"]
+  },
+  {
+    "id": 5,
+    "datum": "2026-04-02",
+    "uhrzeit": "18:00",
+    "titel": "Das letzte Abendmahl",
+    "text_kurz": "Jesus feiert mit seinen Jüngern das Passahmahl und setzt das Abendmahl ein.",
+    "text_lang": "Am Abend des Gründonnerstags versammelte sich Jesus mit seinen zwölf Jüngern zum Passahmahl. Während des Essens nahm er Brot, dankte, brach es und gab es ihnen mit den Worten: 'Das ist mein Leib.' Dann nahm er den Kelch und sagte: 'Das ist mein Blut des Bundes.' Er kündigte seinen Verrat an und sagte: 'Einer von euch wird mich verraten.' Die Jünger waren bestürzt.",
+    "bibelstelle": "Matthäus 26,17-30",
+    "emoji": "🍷",
+    "tags": ["Abendmahl", "Gründonnerstag"]
+  },
+  {
+    "id": 6,
+    "datum": "2026-04-02",
+    "uhrzeit": "21:00",
+    "titel": "Gebet in Gethsemane",
+    "text_kurz": "Jesus betet im Garten Gethsemane und ringt mit seinem bevorstehenden Leiden.",
+    "text_lang": "Nach dem Mahl ging Jesus mit seinen Jüngern zum Ölberg in den Garten Gethsemane. Er nahm Petrus, Jakobus und Johannes mit sich und begann zu beten. Seine Seele war zu Tode betrübt. Er warf sich nieder und betete: 'Mein Vater, wenn es möglich ist, lass diesen Kelch an mir vorübergehen. Aber nicht wie ich will, sondern wie du willst.' Dreimal betete er so, während die Jünger einschliefen.",
+    "bibelstelle": "Matthäus 26,36-46",
+    "emoji": "🌙",
+    "tags": ["Gethsemane", "Gebet"]
+  },
+  {
+    "id": 7,
+    "datum": "2026-04-02",
+    "uhrzeit": "23:00",
+    "titel": "Festnahme Jesu",
+    "text_kurz": "Judas verrät Jesus mit einem Kuss. Jesus wird festgenommen.",
+    "text_lang": "Noch während Jesus betete, näherte sich eine bewaffnete Schar mit Schwertern und Knüppeln. An ihrer Spitze: Judas. Er trat zu Jesus und küsste ihn – das vereinbarte Zeichen. Jesus sagte zu ihm: 'Freund, dazu bist du gekommen?' Die Männer ergriffen Jesus. Petrus zog sein Schwert und schlug einem Diener das Ohr ab, doch Jesus heilte ihn und ließ sich widerstandslos festnehmen. Alle Jünger flohen.",
+    "bibelstelle": "Matthäus 26,47-56",
+    "emoji": "⚔️",
+    "tags": ["Festnahme", "Verrat"]
+  },
+  {
+    "id": 8,
+    "datum": "2026-04-03",
+    "uhrzeit": "06:00",
+    "titel": "Verhör vor Pilatus",
+    "text_kurz": "Jesus wird vor den römischen Statthalter Pilatus gebracht und verhört.",
+    "text_lang": "In den frühen Morgenstunden des Karfreitags führten die Hohenpriester Jesus zu Pontius Pilatus, dem römischen Statthalter. Sie klagten ihn an, er würde behaupten, König der Juden zu sein. Pilatus fragte Jesus: 'Bist du der König der Juden?' Jesus antwortete: 'Du sagst es.' Pilatus fand keine Schuld an ihm und wollte ihn freilassen, doch die Menge forderte lautstark seine Kreuzigung.",
+    "bibelstelle": "Matthäus 27,11-26",
+    "emoji": "⚖️",
+    "tags": ["Pilatus", "Verhör"]
+  },
+  {
+    "id": 9,
+    "datum": "2026-04-03",
+    "uhrzeit": "09:00",
+    "titel": "Kreuzigung",
+    "text_kurz": "Jesus wird auf dem Hügel Golgatha gekreuzigt.",
+    "text_lang": "Um die dritte Stunde führten römische Soldaten Jesus hinaus zur Hinrichtungsstätte Golgatha, dem Schädelplatz. Sie nagelten ihn an ein Kreuz zwischen zwei Verbrechern. Über seinem Kopf befestigten sie eine Tafel mit der Aufschrift: 'Dies ist Jesus, der König der Juden.' Die Vorübergehenden verspotteten ihn. Jesus aber betete: 'Vater, vergib ihnen, denn sie wissen nicht, was sie tun.'",
+    "bibelstelle": "Matthäus 27,32-44",
+    "emoji": "✝️",
+    "tags": ["Kreuzigung", "Golgatha"]
+  },
+  {
+    "id": 10,
+    "datum": "2026-04-03",
+    "uhrzeit": "15:00",
+    "titel": "Tod Jesu",
+    "text_kurz": "Jesus stirbt am Kreuz. Die Erde bebt und der Vorhang im Tempel zerreißt.",
+    "text_lang": "Von der sechsten bis zur neunten Stunde brach eine Finsternis über das ganze Land herein. Um die neunte Stunde rief Jesus laut: 'Mein Gott, mein Gott, warum hast du mich verlassen?' Kurz darauf schrie er noch einmal laut auf und starb. In diesem Moment zerriss der Vorhang im Tempel von oben bis unten, die Erde bebte und Felsen spalteten sich. Der römische Hauptmann bekannte: 'Wahrhaftig, dieser war Gottes Sohn.'",
+    "bibelstelle": "Matthäus 27,45-56",
+    "emoji": "🕊️",
+    "tags": ["Tod", "Karfreitag"]
+  },
+  {
+    "id": 11,
+    "datum": "2026-04-03",
+    "uhrzeit": "18:00",
+    "titel": "Grablegung",
+    "text_kurz": "Josef von Arimathäa legt Jesus in ein neues Felsengrab.",
+    "text_lang": "Als es Abend wurde, kam Josef von Arimathäa, ein reicher Mann und heimlicher Jünger Jesu. Er bat Pilatus um den Leichnam Jesu. Pilatus erlaubte es. Josef nahm den Körper, wickelte ihn in ein reines Leinentuch und legte ihn in sein eigenes neues Grab, das in einen Felsen gehauen war. Dann wälzte er einen großen Stein vor den Eingang. Maria Magdalena und die andere Maria saßen dem Grab gegenüber und beobachteten alles.",
+    "bibelstelle": "Matthäus 27,57-61",
+    "emoji": "🪦",
+    "tags": ["Grablegung", "Josef"]
+  },
+  {
+    "id": 12,
+    "datum": "2026-04-05",
+    "uhrzeit": "06:00",
+    "titel": "Auferstehung",
+    "text_kurz": "Jesus ist auferstanden! Das Grab ist leer. Ein Engel verkündet die frohe Botschaft.",
+    "text_lang": "Am frühen Morgen des ersten Tages der Woche kamen Maria Magdalena und die andere Maria zum Grab. Plötzlich geschah ein gewaltiges Erdbeben. Ein Engel des Herrn kam vom Himmel herab, wälzte den Stein weg und setzte sich darauf. Er sagte zu den Frauen: 'Fürchtet euch nicht! Ich weiß, ihr sucht Jesus, den Gekreuzigten. Er ist nicht hier, er ist auferstanden! Kommt her und seht die Stelle, wo er lag. Geht und verkündet es seinen Jüngern!'",
+    "bibelstelle": "Matthäus 28,1-10",
+    "emoji": "🌅",
+    "tags": ["Auferstehung", "Ostern"]
+  }
+]

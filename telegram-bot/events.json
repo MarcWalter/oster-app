@@ -1,0 +1,79 @@
+[
+  {
+    "zeitpunkt": "2026-04-02T18:00:00",
+    "titel": "Letztes Abendmahl",
+    "text": "Jesus feiert mit seinen Jüngern das letzte Abendmahl. Er wäscht ihnen die Füße und kündigt seinen Verrat an.",
+    "bibelstelle": "Matthäus 26,17-30",
+    "emoji": "🕊️"
+  },
+  {
+    "zeitpunkt": "2026-04-02T21:00:00",
+    "titel": "Garten Gethsemane",
+    "text": "Jesus betet im Garten Gethsemane und ringt mit seinem bevorstehenden Schicksal. Seine Jünger schlafen ein.",
+    "bibelstelle": "Matthäus 26,36-46",
+    "emoji": "🌙"
+  },
+  {
+    "zeitpunkt": "2026-04-03T01:00:00",
+    "titel": "Gefangennahme",
+    "text": "Judas verrät Jesus mit einem Kuss. Die Soldaten nehmen ihn fest, die Jünger fliehen.",
+    "bibelstelle": "Matthäus 26,47-56",
+    "emoji": "⚔️"
+  },
+  {
+    "zeitpunkt": "2026-04-03T06:00:00",
+    "titel": "Verhör vor dem Hohen Rat",
+    "text": "Jesus wird vor den Hohen Rat gebracht. Petrus verleugnet ihn dreimal, bevor der Hahn kräht.",
+    "bibelstelle": "Matthäus 26,57-75",
+    "emoji": "🐓"
+  },
+  {
+    "zeitpunkt": "2026-04-03T09:00:00",
+    "titel": "Vor Pilatus",
+    "text": "Jesus steht vor Pontius Pilatus. Die Menge fordert seine Kreuzigung und die Freilassung von Barabbas.",
+    "bibelstelle": "Matthäus 27,11-26",
+    "emoji": "⚖️"
+  },
+  {
+    "zeitpunkt": "2026-04-03T12:00:00",
+    "titel": "Kreuzigung",
+    "text": "Jesus wird auf Golgatha gekreuzigt. Er hängt zwischen zwei Verbrechern am Kreuz.",
+    "bibelstelle": "Matthäus 27,32-44",
+    "emoji": "✝️"
+  },
+  {
+    "zeitpunkt": "2026-04-03T15:00:00",
+    "titel": "Tod am Kreuz",
+    "text": "Jesus ruft 'Es ist vollbracht' und stirbt. Der Vorhang im Tempel zerreißt, die Erde bebt.",
+    "bibelstelle": "Matthäus 27,45-56",
+    "emoji": "🕊️"
+  },
+  {
+    "zeitpunkt": "2026-04-03T18:00:00",
+    "titel": "Grablegung",
+    "text": "Josef von Arimathäa bittet um den Leichnam Jesu und legt ihn in ein neues Felsengrab.",
+    "bibelstelle": "Matthäus 27,57-61",
+    "emoji": "🪨"
+  },
+  {
+    "zeitpunkt": "2026-04-04T06:00:00",
+    "titel": "Karsamstag",
+    "text": "Der Sabbat. Jesus liegt im Grab. Die Jünger sind in Trauer und Angst verborgen.",
+    "bibelstelle": "Matthäus 27,62-66",
+    "emoji": "🌑"
+  },
+  {
+    "zeitpunkt": "2026-04-05T06:00:00",
+    "titel": "Das leere Grab",
+    "text": "Frauen kommen zum Grab und finden es leer. Ein Engel verkündet: 'Er ist auferstanden!'",
+    "bibelstelle": "Matthäus 28,1-8",
+    "emoji": "🌅"
+  },
+  {
+    "zeitpunkt": "2026-04-05T09:00:00",
+    "titel": "Jesus erscheint",
+    "text": "Jesus begegnet den Frauen und später seinen Jüngern. Er ist auferstanden von den Toten.",
+    "bibelstelle": "Matthäus 28,9-20",
+    "emoji": "✨"
+  }
+]
