@@ -1,3 +1,13 @@
+:root {
+    --color-primary: #2d1b4e;
+    --color-gold: #d4af37;
+    --color-cream: #faf8f3;
+    --color-text: #1a1a1a;
+    --color-text-light: #5a5a5a;
+    --font-display: 'Playfair Display', serif;
+    --font-body: 'Source Sans 3', sans-serif;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -5,38 +15,65 @@
 }
 
 body {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-    background: #FFF8E7;
-    color: #333;
-    line-height: 1.6;
+    font-family: var(--font-body);
+    background: var(--color-cream);
+    color: var(--color-text);
+    line-height: 1.7;
+    position: relative;
+}
+
+body::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background:
+        radial-gradient(circle at 20% 50%, rgba(212, 175, 55, 0.08) 0%, transparent 50%),
+        radial-gradient(circle at 80% 80%, rgba(45, 27, 78, 0.05) 0%, transparent 50%);
+    pointer-events: none;
+    z-index: 0;
 }
 
 .container {
-    max-width: 800px;
+    max-width: 900px;
     margin: 0 auto;
-    padding: 20px;
+    padding: 3rem 2rem;
+    position: relative;
+    z-index: 1;
 }
 
 header {
     text-align: center;
-    margin-bottom: 40px;
-    padding: 20px 0;
+    margin-bottom: 4rem;
+    padding: 2rem 0;
+    animation: fadeIn 1s ease-out;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
 }
 
 h1 {
-    color: #8FBC8F;
-    font-size: 2rem;
-    margin-bottom: 8px;
+    color: var(--color-primary);
+    font-family: var(--font-display);
+    font-size: clamp(2.5rem, 5vw, 3.5rem);
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    letter-spacing: -0.02em;
 }
 
 .subtitle {
-    color: #666;
-    font-size: 1rem;
+    color: var(--color-text-light);
+    font-size: clamp(1rem, 2vw, 1.2rem);
+    font-weight: 300;
 }
 
 .timeline {
     position: relative;
-    padding-left: 50px;
+    padding-left: 60px;
 }
 
 .timeline::before {
@@ -45,27 +82,33 @@ h1 {
     left: 20px;
     top: 0;
     bottom: 0;
-    width: 3px;
-    background: #D4AF37;
+    width: 2px;
+    background: linear-gradient(180deg,
+        var(--color-gold) 0%,
+        var(--color-gold) 50%,
+        rgba(212, 175, 55, 0.3) 100%
+    );
+    box-shadow: 0 0 20px rgba(212, 175, 55, 0.3);
 }
 
 .event {
     position: relative;
-    margin-bottom: 40px;
-    padding: 20px;
+    margin-bottom: 3rem;
+    padding: 2rem;
     background: white;
-    border-radius: 8px;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-    transition: all 0.3s;
+    border-radius: 0;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.06);
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
     cursor: pointer;
+    border-left: 3px solid transparent;
 }
 
 .event:hover {
-    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    box-shadow: 0 8px 30px rgba(212, 175, 55, 0.15);
 }
 
 .event.collapsed {
-    opacity: 0.6;
+    opacity: 0.7;
 }
 
 .event.collapsed .event-text {
@@ -76,102 +119,123 @@ h1 {
 }
 
 .event.expanded {
-    border: 2px solid #D4AF37;
+    border-left-color: var(--color-gold);
+    box-shadow: 0 8px 30px rgba(212, 175, 55, 0.2);
 }
 
 .event::before {
     content: '';
     position: absolute;
-    left: -38px;
-    top: 24px;
-    width: 16px;
-    height: 16px;
+    left: -47px;
+    top: 30px;
+    width: 14px;
+    height: 14px;
     border-radius: 50%;
-    background: #D4AF37;
-    border: 3px solid #FFF8E7;
+    background: var(--color-gold);
+    border: 3px solid var(--color-cream);
+    box-shadow: 0 0 0 2px var(--color-gold);
+    transition: all 0.3s;
 }
 
 .event.past::before {
-    background: #ccc;
+    background: #c9c9c9;
+    box-shadow: 0 0 0 2px #c9c9c9;
 }
 
 .event.current {
-    border: 3px solid #D4AF37;
-    box-shadow: 0 4px 16px rgba(212,175,55,0.3);
+    border-left-color: var(--color-gold);
+    box-shadow: 0 8px 40px rgba(212, 175, 55, 0.25);
 }
 
 .event.current::before {
-    background: #D4AF37;
+    background: var(--color-gold);
     animation: pulse 2s infinite;
+    box-shadow: 0 0 0 4px rgba(212, 175, 55, 0.3);
 }
 
 @keyframes pulse {
     0%, 100% { transform: scale(1); }
-    50% { transform: scale(1.3); }
+    50% { transform: scale(1.4); }
 }
 
 .event-time {
-    font-size: 0.85rem;
-    color: #8FBC8F;
+    font-size: 0.9rem;
+    color: var(--color-gold);
     font-weight: 600;
-    margin-bottom: 8px;
+    margin-bottom: 1rem;
+    font-family: var(--font-body);
+    letter-spacing: 0.3px;
 }
 
 .event-title {
-    font-size: 1.3rem;
-    color: #333;
-    margin-bottom: 12px;
+    font-size: 1.5rem;
+    color: var(--color-primary);
+    margin-bottom: 1rem;
+    font-family: var(--font-display);
+    font-weight: 600;
+    line-height: 1.3;
 }
 
 .event-text {
-    color: #555;
-    margin-bottom: 12px;
+    color: var(--color-text);
+    margin-bottom: 1rem;
+    line-height: 1.7;
 }
 
 .event-reference {
-    font-size: 0.85rem;
-    color: #888;
+    font-size: 0.9rem;
+    color: var(--color-text-light);
     font-style: italic;
+    margin-bottom: 1rem;
 }
 
 .event-status {
     display: inline-block;
-    padding: 4px 12px;
-    border-radius: 12px;
-    font-size: 0.8rem;
-    margin-top: 8px;
+    padding: 0.4rem 1rem;
+    border-radius: 20px;
+    font-size: 0.85rem;
     font-weight: 600;
+    letter-spacing: 0.3px;
 }
 
 .status-past {
-    background: #e0e0e0;
+    background: linear-gradient(135deg, #e8e8e8 0%, #d4d4d4 100%);
     color: #666;
 }
 
 .status-current {
-    background: #D4AF37;
+    background: linear-gradient(135deg, var(--color-gold) 0%, #c9a030 100%);
     color: white;
+    box-shadow: 0 2px 10px rgba(212, 175, 55, 0.3);
 }
 
 .status-future {
-    background: #8FBC8F;
-    color: white;
+    background: linear-gradient(135deg, var(--color-primary) 0%, #3d2766 100%);
+    color: var(--color-gold);
 }
 
 @media (max-width: 600px) {
     .container {
-        padding: 15px;
+        padding: 2rem 1rem;
     }
 
     h1 {
-        font-size: 1.5rem;
+        font-size: 2rem;
     }
 
     .timeline {
-        padding-left: 40px;
+        padding-left: 45px;
     }
 
     .event {
-        padding: 15px;
+        padding: 1.5rem;
+    }
+
+    .event::before {
+        left: -35px;
+    }
+
+    .event-title {
+        font-size: 1.3rem;
     }
 }
