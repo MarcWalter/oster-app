@@ -2,6 +2,5 @@
   "buildCommand": null,
   "outputDirectory": ".",
   "devCommand": null,
-  "installCommand": null,
-  "ignoreCommand": "[ -d telegram-bot ]"
+  "installCommand": null
 }
