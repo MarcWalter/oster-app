@@ -101,7 +101,7 @@ main {
 .event .time {
     font-weight: 600;
     color: #D4AF37;
-    min-width: 80px;
+    min-width: 100px;
 }
 
 .event .title {
