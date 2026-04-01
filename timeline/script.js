@@ -34,9 +34,10 @@ function renderTimeline() {
     const timeline = document.getElementById('timeline');
     timeline.innerHTML = '';
 
-    let scrolledToCurrent = false;
+    let scrolledToLast = false;
+    let lastEventDiv = null;
 
-    ereignisse.forEach(event => {
+    ereignisse.forEach((event, index) => {
         const status = getStatus(event.zeitpunkt);
 
         const eventDiv = document.createElement('div');
@@ -55,20 +56,36 @@ function renderTimeline() {
         `;
 
         eventDiv.addEventListener('click', () => {
-            const isExpanded = eventDiv.classList.contains('expanded');
-            eventDiv.classList.toggle('expanded');
-            eventDiv.classList.toggle('collapsed');
-            const newText = eventDiv.classList.contains('expanded') ? event.text_lang : event.text_kurz;
-            eventDiv.querySelector('.event-text').textContent = newText;
+            const wasExpanded = eventDiv.classList.contains('expanded');
+
+            document.querySelectorAll('.event').forEach(e => {
+                e.classList.remove('expanded');
+                e.classList.add('collapsed');
+            });
+
+            if (!wasExpanded) {
+                eventDiv.classList.remove('collapsed');
+                eventDiv.classList.add('expanded');
+                const newText = event.text_lang;
+                eventDiv.querySelector('.event-text').textContent = newText;
+            } else {
+                const newText = event.text_kurz;
+                eventDiv.querySelector('.event-text').textContent = newText;
+            }
         });
 
         timeline.appendChild(eventDiv);
+        lastEventDiv = eventDiv;
 
-        if (status.type === 'current' && !scrolledToCurrent) {
+        if (status.type === 'current' && !scrolledToLast) {
             setTimeout(() => eventDiv.scrollIntoView({ behavior: 'smooth', block: 'center' }), 300);
-            scrolledToCurrent = true;
+            scrolledToLast = true;
         }
     });
+
+    if (!scrolledToLast && lastEventDiv) {
+        setTimeout(() => lastEventDiv.scrollIntoView({ behavior: 'smooth', block: 'end' }), 300);
+    }
 }
 
 setInterval(renderTimeline, 60000);
