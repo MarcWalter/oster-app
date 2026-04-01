@@ -34,9 +34,6 @@ function renderTimeline() {
     const timeline = document.getElementById('timeline');
     timeline.innerHTML = '';
 
-    let scrolledToLast = false;
-    let lastEventDiv = null;
-
     ereignisse.forEach((event, index) => {
         const status = getStatus(event.zeitpunkt);
 
@@ -75,17 +72,7 @@ function renderTimeline() {
         });
 
         timeline.appendChild(eventDiv);
-        lastEventDiv = eventDiv;
-
-        if (status.type === 'current' && !scrolledToLast) {
-            setTimeout(() => eventDiv.scrollIntoView({ behavior: 'smooth', block: 'center' }), 300);
-            scrolledToLast = true;
-        }
     });
-
-    if (!scrolledToLast && lastEventDiv) {
-        setTimeout(() => lastEventDiv.scrollIntoView({ behavior: 'smooth', block: 'end' }), 300);
-    }
 }
 
 setInterval(renderTimeline, 60000);
