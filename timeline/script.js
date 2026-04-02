@@ -30,6 +30,11 @@ function formatDate(dateString) {
     return `${day}, ${date.getDate()}.${date.getMonth() + 1}. um ${time} Uhr`;
 }
 
+function createBibleLink(bibelstelle) {
+    const url = `https://www.bibleserver.com/NeÜ/${bibelstelle.replace(/ /g, '')}`;
+    return `<a href="${url}" target="_blank" rel="noopener">${bibelstelle}</a>`;
+}
+
 function renderTimeline() {
     const timeline = document.getElementById('timeline');
     timeline.innerHTML = '';
@@ -48,7 +53,7 @@ function renderTimeline() {
             <div class="event-time">${event.emoji} ${formatDate(event.zeitpunkt)}</div>
             <h2 class="event-title">${event.titel}</h2>
             <p class="event-text">${textToShow}</p>
-            <div class="event-reference">${event.bibelstelle}</div>
+            <div class="event-reference">${createBibleLink(event.bibelstelle)}</div>
             <span class="event-status status-${status.type}">${status.text}</span>
         `;
 
