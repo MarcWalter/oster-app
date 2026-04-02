@@ -11,7 +11,12 @@
       "Bash(git push:*)",
       "Bash(ssh -T git@github.com)",
       "WebFetch(domain:oster-app.vercel.app)",
-      "Bash(/home/hopemarie/.claude/plans/linear-cuddling-sprout-agent-a72154685cf36d71b.md:*)"
+      "Bash(/home/hopemarie/.claude/plans/linear-cuddling-sprout-agent-a72154685cf36d71b.md:*)",
+      "Bash(curl -o playfair-display.woff2 \"https://fonts.gstatic.com/s/playfairdisplay/v37/nuFvD-vYSZviVYUb_rj3ij__anPXJzDwcbmjWBN2PKdFvUDQZNLo_U2r.woff2\")",
+      "Bash(curl -o playfair-display-600.woff2 \"https://fonts.gstatic.com/s/playfairdisplay/v37/nuFvD-vYSZviVYUb_rj3ij__anPXJzDwcbmjWBN2PKeFvUDQZNLo_U2r.woff2\")",
+      "Bash(curl -o playfair-display-700.woff2 \"https://fonts.gstatic.com/s/playfairdisplay/v37/nuFvD-vYSZviVYUb_rj3ij__anPXJzDwcbmjWBN2PKd3vUDQZNLo_U2r.woff2\")",
+      "Bash(curl -o source-sans-3-300.woff2 \"https://fonts.gstatic.com/s/sourcesans3/v15/nwpBtKy2OAdR1K-IwhWudF-R9QMylBJAV3Bo8Kw461EN_io6npfB.woff2\")",
+      "Bash(curl -o source-sans-3-400.woff2 \"https://fonts.gstatic.com/s/sourcesans3/v15/nwpBtKy2OAdR1K-IwhWudF-R9QMylBJAV3Bo8Kzc61EN_io6npfB.woff2\")"
     ]
   }
 }
