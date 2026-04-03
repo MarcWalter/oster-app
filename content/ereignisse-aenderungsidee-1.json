@@ -78,7 +78,7 @@
     "zeitpunkt": "2026-04-02T21:00:00",
     "titel": "Gebet in Gethsemane",
     "text_kurz": "Jesus betet im Garten Gethsemane und ringt mit seinem bevorstehenden Leiden.",
-    "text_lang": "Vor 2000 Jahren, spät in der Nacht, verließ Jesus mit seinen Jüngern die Stadt und ging zum Ölberg. Sie betraten einen Garten namens Gethsemane – \"Ölkelter\".\n\nJesus nahm Petrus, Jakobus und Johannes mit sich. Seine Worte waren erschütternd: \"Meine Seele ist zu Tode betrübt. Bleibt hier und wacht mit mir.\" Dann ging er ein Stück weiter, warf sich auf den Boden und betete.\n\nSein Gebet war ein Ringen: \"Mein Vater, wenn es möglich ist, lass diesen Kelch an mir vorübergehen. Aber nicht wie ich will, sondern wie du willst.\" Jesus wusste, was ihm bevorstand – die Verhaftung, die Folter, der Tod am Kreuz. Sein Schweiß wurde wie Blutstropfen.\n\nDreimal betete er so. Dreimal kehrte er zu seinen Jüngern zurück – und fand sie schlafend. \"Könnt ihr nicht eine Stunde mit mir wachen?\", fragte er traurig.\n\nIn dieser Nacht rang Jesus mit seinem bevorstehenden Weg, aber sagte Ja zum Willen des Vaters.",
+    "text_lang": "Vor 2000 Jahren, spät in der Nacht, verließ Jesus mit seinen Jüngern die Stadt und ging zum Ölberg. Sie betraten einen Garten namens Gethsemane – \"Ölkelter\".\n\nJesus nahm Petrus, Jakobus und Johannes mit sich. Seine Worte waren erschütternd: \"Meine Seele ist zu Tode betrübt. Bleibt hier und wacht mit mir.\" Dann ging er ein Stück weiter, warf sich auf den Boden und betete.\n\nSein Gebet war ein Ringen: \"Mein Vater, wenn es möglich ist, lass diesen Kelch an mir vorübergehen. Aber nicht wie ich will, sondern wie du willst.\" Jesus wusste, was ihm bevorstand – die Verhaftung, die Folter, der Tod am Kreuz. Sein Schweiß wurde wie Blutstropfen.\n\nDreimal betete er so. Dreimal kehrte er zu seinen Jüngern zurück – und fand sie schlafend. \"Könnt ihr nicht eine Stunde mit mir wachen?\", fragte er traurig.\n\nIn dieser Nacht rang Jesus mit seinem Schicksal – und sagte Ja zum Willen des Vaters.",
     "bibelstelle": "Matthäus 26,36-46",
     "emoji": "🌙",
     "tags": ["Gethsemane", "Gebet"]
@@ -156,6 +156,30 @@
     "tags": ["Kreuzigung", "Golgatha"]
   },
   {
+    "id": 13.1,
+    "datum": "2026-04-03",
+    "uhrzeit": "10:30",
+    "zeitpunkt": "2026-04-03T10:30:00",
+    "titel": "Das Paradies-Versprechen",
+    "text_kurz": "Jesus verspricht dem reuigen Verbrecher: 'Heute wirst du mit mir im Paradies sein.'",
+    "text_lang": "Vor 2000 Jahren hingen drei Männer am Kreuz auf Golgatha. Jesus in der Mitte, links und rechts von ihm zwei Verbrecher, die wegen ihrer Taten hingerichtet wurden.\n\nZunächst verspotteten beide Verbrecher Jesus, wie alle anderen auch. Doch dann geschah etwas Erstaunliches: Einer der beiden kam zur Besinnung. Er sah, wie Jesus litt – ohne Bitterkeit, ohne Hass. Er hörte, wie Jesus für seine Henker betete.\n\nDer Verbrecher wandte sich an seinen Leidensgenossen: \"Fürchtest du Gott nicht? Wir leiden die gerechte Strafe für unsere Taten. Aber dieser hat nichts Unrechtes getan.\" Dann sagte er zu Jesus: \"Herr, denk an mich, wenn du in dein Reich kommst.\"\n\nEs war ein einfaches, demütiges Gebet. Der Mann hatte nichts vorzuweisen – keine guten Werke, keine religiöse Bildung, nur ein Leben voller Schuld. Aber er erkannte, wer Jesus war, und er vertraute ihm.\n\nJesus antwortete sofort: \"Wahrlich, ich sage dir: Heute wirst du mit mir im Paradies sein.\"\n\nNicht morgen. Nicht nach einer Bewährungszeit. Heute. Die Gnade Gottes kennt keine Wartezeit. Selbst in der letzten Stunde ist Umkehr möglich.",
+    "bibelstelle": "Lukas 23,39-43",
+    "emoji": "🌅",
+    "tags": ["Kreuz", "Gnade", "Paradies"]
+  },
+  {
+    "id": 13.2,
+    "datum": "2026-04-03",
+    "uhrzeit": "11:30",
+    "zeitpunkt": "2026-04-03T11:30:00",
+    "titel": "Die neue Familie",
+    "text_kurz": "Jesus vertraut seine Mutter dem Jünger Johannes an: 'Frau, siehe, dein Sohn.'",
+    "text_lang": "Vor 2000 Jahren stand eine kleine Gruppe von Frauen und ein einziger Jünger unter dem Kreuz. Während die meisten Jünger aus Angst geflohen waren, harrten sie aus: Maria, die Mutter Jesu, ihre Schwester, Maria Magdalena, und Johannes, der Jünger, den Jesus liebte.\n\nMaria musste zusehen, wie ihr Sohn starb. Dreißig Jahre zuvor hatte der alte Simeon im Tempel prophezeit: \"Ein Schwert wird durch deine Seele dringen.\" Jetzt erfüllte sich diese Prophezeiung. Jeder Atemzug Jesu, jede Schmerzensäußerung durchbohrte ihr Herz.\n\nJesus sah seine Mutter und den Jünger, den er liebte. Selbst in seinen Qualen dachte er an ihre Zukunft. Als ältester Sohn war es seine Pflicht, für seine Mutter zu sorgen. Doch er würde nicht mehr da sein.\n\nJesus sagte zu seiner Mutter: \"Frau, siehe, dein Sohn!\" Dann sagte er zu Johannes: \"Siehe, deine Mutter!\"\n\nMit diesen Worten schuf Jesus eine neue Familie. Johannes nahm Maria von dieser Stunde an in sein Haus auf. Die Gemeinde Jesu würde zur Familie werden – nicht durch Blutsbande, sondern durch Liebe und Fürsorge.\n\nAm Kreuz sorgte Jesus nicht nur für die Erlösung der Welt, sondern auch für seine Mutter. Bis zum letzten Atemzug blieb er der liebende Sohn.",
+    "bibelstelle": "Johannes 19,25-27",
+    "emoji": "❤️",
+    "tags": ["Kreuz", "Maria", "Johannes"]
+  },
+  {
     "id": 14,
     "datum": "2026-04-03",
     "uhrzeit": "12:00",
@@ -168,16 +192,40 @@
     "tags": ["Finsternis", "Zeichen"]
   },
   {
+    "id": 14.1,
+    "datum": "2026-04-03",
+    "uhrzeit": "14:45",
+    "zeitpunkt": "2026-04-03T14:45:00",
+    "titel": "Mich dürstet",
+    "text_kurz": "Jesus ruft: 'Mich dürstet.' Ein Soldat reicht ihm einen Schwamm mit Essig.",
+    "text_lang": "Vor 2000 Jahren, nach drei Stunden Finsternis und sechs Stunden am Kreuz, sprach Jesus ein weiteres Wort: \"Mich dürstet.\"\n\nEs war das einzige Wort, in dem Jesus über sein eigenes körperliches Leiden sprach. Sein Körper war am Ende. Der Blutverlust, die Hitze, die Anstrengung des Atmens am Kreuz – alles hatte ihn ausgetrocknet. Sein Mund war trocken wie eine Tonscherbe, seine Zunge klebte am Gaumen.\n\nDoch selbst in diesem Moment erfüllte sich die Schrift. Der Psalmist hatte tausend Jahre zuvor prophezeit: \"Meine Kraft ist vertrocknet wie eine Scherbe, und meine Zunge klebt mir am Gaumen\" und \"Sie gaben mir Galle zu essen und Essig zu trinken für meinen Durst.\"\n\nEin Gefäß mit Essigwein stand dort – das saure Getränk der römischen Soldaten. Einer von ihnen tauchte einen Schwamm hinein, steckte ihn auf einen Ysopstängel und hob ihn zu Jesu Lippen.\n\nJesus nahm den Essig. Es war kein betäubendes Getränk – er wollte bei vollem Bewusstsein bleiben bis zum Ende. Er wollte den Kelch des Leidens bis zur Neige trinken, damit wir den Kelch des Heils trinken können.\n\nDer Durst Jesu am Kreuz stillt unseren tiefsten Durst – den Durst nach Gott, nach Vergebung, nach Leben.",
+    "bibelstelle": "Johannes 19,28-29",
+    "emoji": "💧",
+    "tags": ["Kreuz", "Leiden", "Durst"]
+  },
+  {
     "id": 15,
     "datum": "2026-04-03",
     "uhrzeit": "15:00",
     "zeitpunkt": "2026-04-03T15:00:00",
     "titel": "Tod Jesu",
     "text_kurz": "Jesus stirbt am Kreuz. Die Erde bebt und der Vorhang im Tempel zerreißt.",
-    "text_lang": "Vor 2000 Jahren, um die neunte Stunde, durchbrach ein lauter Schrei die Finsternis. Jesus rief: \"Eli, Eli, lema sabachtani?\" – \"Mein Gott, mein Gott, warum hast du mich verlassen?\" Es war der Schrei absoluter Verlassenheit.\n\nEinige Umstehende meinten, er rufe nach Elia. Einer lief und tränkte einen Schwamm mit Essig, steckte ihn auf ein Rohr und gab Jesus zu trinken. Jesus sagte: \"Es ist vollbracht!\" Dann rief er noch einmal laut auf, neigte sein Haupt und starb.\n\nIn diesem Moment geschahen erschreckende Zeichen: Der schwere Vorhang im Tempel, der das Allerheiligste abtrennte, zerriss von oben bis unten in zwei Teile. Die Erde bebte. Felsen spalteten sich. Gräber öffneten sich.\n\nDer römische Hauptmann, der die Kreuzigung beaufsichtigt hatte, war zutiefst erschüttert. Er bekannte: \"Wahrhaftig, dieser war Gottes Sohn!\"\n\nDer Tod Jesu war kein gewöhnlicher Tod. Himmel und Erde bezeugten: Hier starb der Sohn Gottes.",
+    "text_lang": "Vor 2000 Jahren, um die neunte Stunde, durchbrach ein lauter Schrei die Finsternis. Jesus rief: \"Eli, Eli, lema sabachtani?\" – \"Mein Gott, mein Gott, warum hast du mich verlassen?\" Es war der Schrei absoluter Verlassenheit.\n\nEinige Umstehende meinten, er rufe nach Elia. Einer lief und tränkte einen Schwamm mit Essig, steckte ihn auf ein Rohr und gab Jesus zu trinken. Jesus sagte: \"Es ist vollbracht!\" Dann rief er noch einmal laut auf: \"Vater, in deine Hände befehle ich meinen Geist!\" Er neigte sein Haupt und starb.\n\nIn diesem Moment geschahen erschreckende Zeichen: Der schwere Vorhang im Tempel, der das Allerheiligste abtrennte, zerriss von oben bis unten in zwei Teile. Die Erde bebte. Felsen spalteten sich. Gräber öffneten sich.\n\nDer römische Hauptmann, der die Kreuzigung beaufsichtigt hatte, war zutiefst erschüttert. Er bekannte: \"Wahrhaftig, dieser war Gottes Sohn!\"\n\nDer Tod Jesu war kein gewöhnlicher Tod. Himmel und Erde bezeugten: Hier starb der Sohn Gottes.",
     "bibelstelle": "Matthäus 27,45-56",
     "emoji": "🕊️",
     "tags": ["Tod", "Karfreitag"]
+  },
+  {
+    "id": 15.1,
+    "datum": "2026-04-03",
+    "uhrzeit": "16:00",
+    "zeitpunkt": "2026-04-03T16:00:00",
+    "titel": "Der Lanzenstich",
+    "text_kurz": "Ein römischer Soldat sticht Jesus mit einer Lanze in die Seite. Blut und Wasser fließen heraus.",
+    "text_lang": "Vor 2000 Jahren, nachdem Jesus gestorben war, kamen die Soldaten, um den Gekreuzigten die Beine zu brechen – eine grausame Praxis, um den Tod zu beschleunigen. Am Kreuz musste man sich auf den Beinen abstützen, um atmen zu können. Gebrochene Beine bedeuteten schnelles Ersticken.\n\nDie Soldaten brachen den beiden Verbrechern die Beine. Doch als sie zu Jesus kamen, sahen sie, dass er bereits tot war. Sie brachen ihm die Beine nicht.\n\nAber einer der Soldaten wollte sichergehen. Er nahm seine Lanze und stieß sie in Jesu Seite. Sofort floss Blut und Wasser heraus – ein medizinisches Zeichen dafür, dass Jesus wirklich tot war. Das Blut hatte sich bereits in feste Bestandteile und Serum getrennt.\n\nDer Apostel Johannes, der dabei war, bezeugte später: \"Und der das gesehen hat, der hat es bezeugt, und sein Zeugnis ist wahr.\" Es war ihm wichtig festzuhalten: Jesus war wirklich gestorben. Kein Scheintod, keine Ohnmacht. Der Tod war real.\n\nUnd doch erfüllte sich auch hier die Schrift: \"Kein Knochen soll ihm gebrochen werden\" – wie beim Passahlamm. Und: \"Sie werden auf den sehen, den sie durchbohrt haben.\"\n\nAus der durchbohrten Seite Jesu fließt Leben für die Welt. Blut für die Vergebung, Wasser für die Reinigung.",
+    "bibelstelle": "Johannes 19,31-37",
+    "emoji": "🩸",
+    "tags": ["Kreuz", "Lanzenstich", "Zeugnis"]
   },
   {
     "id": 16,
@@ -186,10 +234,10 @@
     "zeitpunkt": "2026-04-03T18:00:00",
     "titel": "Grablegung",
     "text_kurz": "Josef von Arimathäa legt Jesus in ein neues Felsengrab.",
-    "text_lang": "Vor 2000 Jahren, als es Abend wurde, trat ein Mann namens Josef von Arimathäa mutig hervor. Er war ein reicher Ratsherr und heimlicher Jünger Jesu. Bisher hatte er aus Angst geschwiegen – doch jetzt handelte er.\n\nJosef ging zu Pilatus und bat um den Leichnam Jesu. Pilatus war überrascht, dass Jesus bereits tot war, und erlaubte es. Josef kaufte ein reines Leinentuch, nahm den Körper vom Kreuz und wickelte ihn ehrfürchtig ein.\n\nEr legte Jesus in sein eigenes neues Grab – eine Höhle, die in einen Felsen gehauen war. Noch nie war jemand darin bestattet worden. Dann wälzte er einen großen, schweren Stein vor den Eingang des Grabes.\n\nMaria Magdalena und die andere Maria saßen dem Grab gegenüber und beobachteten alles. Sie wollten Jesus nicht allein lassen, selbst im Tod nicht.",
-    "bibelstelle": "Matthäus 27,57-61",
+    "text_lang": "Vor 2000 Jahren, als es Abend wurde, traten zwei Männer mutig hervor: Josef von Arimathäa, ein reicher Ratsherr, und Nikodemus, der Pharisäer, der einst nachts zu Jesus gekommen war. Beide waren heimliche Jünger gewesen – doch jetzt bekannten sie sich öffentlich.\n\nJosef ging zu Pilatus und bat um den Leichnam Jesu. Pilatus war überrascht, dass Jesus bereits tot war, und erlaubte es. Nikodemus brachte eine Mischung aus Myrrhe und Aloe – etwa 30 Kilogramm, eine königliche Menge für ein königliches Begräbnis.\n\nGemeinsam nahmen sie den Körper vom Kreuz und wickelten ihn in reine Leinentücher mit den wohlriechenden Ölen, wie es jüdischer Brauch war. Josef legte Jesus in sein eigenes neues Grab – eine Höhle, die in einen Felsen gehauen war. Noch nie war jemand darin bestattet worden.\n\nDann wälzten sie einen großen, schweren Stein vor den Eingang des Grabes. Maria Magdalena und die andere Maria saßen dem Grab gegenüber und beobachteten alles. Sie wollten Jesus nicht allein lassen, selbst im Tod nicht.\n\nDie Sonne ging unter. Der Sabbat begann. Alles schien zu Ende zu sein.",
+    "bibelstelle": "Johannes 19,38-42",
     "emoji": "🪦",
-    "tags": ["Grablegung", "Josef"]
+    "tags": ["Grablegung", "Josef", "Nikodemus"]
   },
   {
     "id": 17,
@@ -198,7 +246,7 @@
     "zeitpunkt": "2026-04-04T09:00:00",
     "titel": "Bewachung des Grabes",
     "text_kurz": "Die Hohenpriester lassen das Grab versiegeln und von Soldaten bewachen.",
-    "text_lang": "Vor 2000 Jahren, am Karsamstag, dem Tag nach der Kreuzigung, gingen die Hohenpriester und Pharisäer zu Pilatus. Es war eigentlich der Sabbat – ein Ruhetag – doch ihre Sorge trieb sie an.\n\nSie sagten zu Pilatus: \"Herr, wir erinnern uns, dass dieser Betrüger, als er noch lebte, gesagt hat: Nach drei Tagen werde ich auferstehen. Befiehl, dass das Grab bis zum dritten Tag bewacht wird, damit nicht seine Jünger kommen, ihn stehlen und dem Volk sagen: Er ist von den Toten auferstanden. Dann wäre der letzte Betrug schlimmer als der erste.\"\n\nPilatus antwortete: \"Ihr sollt eine Wache haben. Geht, sichert das Grab, so gut ihr könnt.\"\n\nSie gingen zum Grab, versiegelten den Stein mit dem offiziellen römischen Siegel und stellten eine Wache auf – vermutlich vier bis sechzehn Soldaten.",
+    "text_lang": "Vor 2000 Jahren, am Karsamstag, dem Tag nach der Kreuzigung, gingen die Hohenpriester und Pharisäer zu Pilatus. Es war eigentlich der Sabbat – ein Ruhetag – doch ihre Sorge trieb sie an.\n\nSie sagten zu Pilatus: \"Herr, wir erinnern uns, dass dieser Betrüger, als er noch lebte, gesagt hat: Nach drei Tagen werde ich auferstehen. Befiehl, dass das Grab bis zum dritten Tag bewacht wird, damit nicht seine Jünger kommen, ihn stehlen und dem Volk sagen: Er ist von den Toten auferstanden. Dann wäre der letzte Betrug schlimmer als der erste.\"\n\nPilatus antwortete: \"Ihr sollt eine Wache haben. Geht, sichert das Grab, so gut ihr könnt.\"\n\nSie gingen zum Grab, versiegelten den Stein mit dem offiziellen römischen Siegel und stellten eine Wache auf – vermutlich vier bis sechzehn Soldaten.\n\nDoch kein Siegel und keine Wache konnte aufhalten, was am nächsten Morgen geschehen würde.",
     "bibelstelle": "Matthäus 27,62-66",
     "emoji": "🛡️",
     "tags": ["Karsamstag", "Bewachung", "Grab"]
